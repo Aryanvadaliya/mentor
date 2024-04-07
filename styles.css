@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f6ff;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('mentoring-background.jpg'); /* Update with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  select {
+    appearance: none; /* Hide default dropdown arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23000000'%3E%3Cpath d='M10 12l-6 6h12l-6-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  button[type="submit"]:focus {
+    outline: none;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
